@@ -38,7 +38,7 @@
       }
     },
     "GithubRepository": {
-      "defaultValue": "https://github.com/KelvinTegelaar/CIPP",
+      "defaultValue": "https://github.com/jeroenvanree/CIPP",
       "type": "string",
       "metadata": {
         "description": "URL to your Github Frontend fork."
@@ -52,7 +52,7 @@
       }
     },
     "GithubAPIRepository": {
-      "defaultValue": "https://github.com/KelvinTegelaar/CIPP-API",
+      "defaultValue": "https://github.com/jeroenvanree/CIPP-API",
       "type": "string",
       "metadata": {
         "description": "URL to your Github backend fork."
@@ -64,7 +64,7 @@
     "funcAppName": "[toLower(concat(parameters('baseName'), variables('suffix')))]",
     "funcStorageName": "[tolower(concat(substring(parameters('baseName'), 0, min(length(parameters('baseName')),16)), 'stg', variables('suffix')))]",
     "serverFarmName": "[concat(substring(parameters('baseName'), 0, min(length(parameters('baseName')),14)), '-srv-', variables('suffix'))]",
-    "repoURL": "https://github.com/KelvinTegelaar/AzValidate.git",
+    "repoURL": "https://github.com/jeroenvanree/AzValidate.git",
     "uniqueResourceNameBase": "[toLower(concat(parameters('baseName'), variables('suffix')))]",
     "swaName": "[toLower(concat(parameters('baseName'), '-swa-', variables('suffix')))]"
   },
